@@ -1,0 +1,85 @@
+{
+  "name": "wims-js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@mantine/carousel": "^6.0.13",
+    "@mantine/core": "^6.0.13",
+    "@mantine/dates": "^6.0.13",
+    "@mantine/dropzone": "^6.0.13",
+    "@mantine/form": "^6.0.13",
+    "@mantine/hooks": "^6.0.13",
+    "@mantine/modals": "^6.0.13",
+    "@mantine/notifications": "^6.0.13",
+    "@mantine/nprogress": "^6.0.13",
+    "@mantine/prism": "^6.0.13",
+    "@mantine/spotlight": "^6.0.13",
+    "@mantine/tiptap": "^6.0.13",
+    "@tabler/icons-react": "^2.21.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-link": "^2.0.3",
+    "@tiptap/react": "^2.0.3",
+    "@tiptap/starter-kit": "^2.0.3",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/node": "^16.18.23",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.8",
+    "embla-carousel-react": "^7.1.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.4",
+    "jwt-decode": "^3.1.2",
+    "node-sass": "^7.0.3",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "usehooks-ts": "^2.9.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/bootstrap": "^5.2.6",
+    "@types/jest": "^29.5.2",
+    "@types/jquery": "^3.5.16",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-test-renderer": "^18.0.0",
+    "jest": "^29.5.0",
+    "jest-transform-stub": "^2.0.0",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^29.1.0"
+  }
+}

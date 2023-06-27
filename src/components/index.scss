@@ -1,0 +1,22 @@
+.nav-item {
+
+    &:hover {
+        border-radius: 8px;
+        background-color: #f6f6f6;
+    }
+}
+
+.navbar-brand {
+    border-bottom: 2px solid transparent;
+    padding-inline: 12px;
+
+    &:hover {
+        border-bottom: 2px solid black;
+    }
+}
+
+.nav-item.active {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 2px solid black;
+}

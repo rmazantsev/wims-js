@@ -1,0 +1,11 @@
+.header-item{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    &:hover{
+        border-bottom: 2px solid black;
+    }
+}
+
+.table-row{
+    cursor: pointer;
+}
